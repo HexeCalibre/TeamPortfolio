@@ -5,14 +5,14 @@
 }
 
 /* Card */
-.card{
+.project-card{
     transition: transform 0.2s ease-in;
 }
 
-.card:hover{
+.project-card:hover{
     transform: translateY(-15px);
 }
-
+    
 .h100{
     height: 100vh;
 }
