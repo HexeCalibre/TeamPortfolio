@@ -1,93 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Author" content="">
-    <meta name="Description" content="">
-    <meta name="Keyword" content="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Author" content="" />
+    <meta name="Description" content="" />
+    <meta name="Keyword" content="" />
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>Portfolio</title>
-    
+
     <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css"> -->
-    <link rel="stylesheet" href="./css/main.min.css">
-    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js" defer></script>
-</head>
-<body>
-
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+      defer
+    ></script>
+  </head>
+  <body>
     <nav class="navbar navbar-expand-sm bg-dark text-light">
-        <div class="container-fluid">
-            <br>
-            <div class="float-none"><kbd class="bg-info"><stong>Portfolio</stong></kbd></div>
+      <div class="container-fluid">
+        <br />
+        <div class="float-none">
+          <kbd class="bg-info"><stong>Portfolio</stong></kbd>
         </div>
+      </div>
     </nav>
 
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top shadow-lg">
-        <div class="container">
+    <nav
+      class="navbar navbar-expand-md bg-dark navbar-dark sticky-top shadow-lg"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#top">
+          <img
+            src="img/logo.png"
+            alt="Logo"
+            width="80"
+            height="30"
+            class="d-inline-block align-text-top"
+          />&nbsp;<span class="align-bottom">Dot.Exe</span>
+        </a>
 
-            <a class="navbar-brand" href="#top">
-                <img src="img/logo.png" alt="Logo" width="80"
-                    height="30" class="d-inline-block align-text-top">&nbsp;<span class="align-bottom">Dot.Exe</span>
-            </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav nav-underline">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
+            <li class="nav-item">
+              <a
+                class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                href="#services"
+                >Services</a
+              >
+            </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#services">Services</a>
-                    </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
 
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="#pricing">Pricing</a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            About
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="#about">The Company</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#about">Our Story</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#about">The Team</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#about">Reviews</a>
-                            </li>
-                        </ul>
-
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-
-
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#about">The Company</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#about">Our Story</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#about">The Team</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#about">Reviews</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-
 
     <div class="container-fluid">
-        <!-- OFF CANVAS -->
-        <!-- <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <!-- OFF CANVAS -->
+      <!-- <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header text-light">
                 <h5 class="offcanvas-title" id="offcanvasExampleLabel">Profile</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -108,124 +135,153 @@
                 </div>
             </div>
         </div> -->
-        <!-- OFF CANVAS -->
-        <!-- DESCRIPTION -->
-        <div class="row bg-primary shadow-lg" id="top">
-            <div class="container">
-                <div class="col-12 pt-5 h100">
-                    <!-- <button class="btn btn-primary text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+      <!-- OFF CANVAS -->
+      <!-- DESCRIPTION -->
+      <div class="row bg-primary shadow-lg" id="top">
+        <div class="container">
+          <div class="col-12 pt-5 h100">
+            <!-- <button class="btn btn-primary text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                         <i class="bi bi-play-fill"></i>
                     </button> -->
 
-                    <div class="container rounded shadow-lg">
-                        <div class="row pt-5">
-                            <div class="col-sm-12 col-md-6 col-lg-6 mt-5">
-                                <h1 class="mx-auto mb-5 text-left"><strong>Responsive left-aligned hero with image</strong></h1>
-                                <p class="mx-auto">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                            </div>
-                            <div class="col-sm-12 col-md-6 col-lg-6 mt-5">
-                                <img src="./img/sample-hero.png" alt="hero image" class="mx-auto" width="100%">
-                            </div>
-                        </div>
-                    </div>
+            <div class="container rounded shadow-lg">
+              <div class="row pt-5">
+                <div class="col-sm-12 col-md-6 col-lg-6 mt-5">
+                  <h1 class="mx-auto mb-5 text-left text-light">
+                    <strong>Responsive left-aligned hero with image</strong>
+                  </h1>
+                  <p class="mx-auto text-light">
+                    Quickly design and customize responsive mobile-first sites
+                    with Bootstrap, the world’s most popular front-end open
+                    source toolkit, featuring Sass variables and mixins,
+                    responsive grid system, extensive prebuilt components, and
+                    powerful JavaScript plugins.
+                  </p>
                 </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 mt-5">
+                  <img
+                    src="./img/sample-hero.png"
+                    alt="hero image"
+                    class="mx-auto"
+                    width="100%"
+                  />
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <!-- PROJECTS -->
-        <div class="row bg-success pt-5" id="projects">
-                <div class="col-12 pt-5 h100">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-6 col-lg-3 mb-3">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h1>IMAGE</h1>
-                                    </div>
-                                    <div class="card-footer">
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab fuga nostrum ipsum ad consequatur modi incidunt a quos corporis nulla.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-6 col-lg-3 mb-3">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h1>IMAGE</h1>
-                                    </div>
-                                    <div class="card-footer">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, adipisci eius! Impedit deserunt repellat velit optio aliquam at sint voluptatum.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-6 col-lg-3 mb-3">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h1>IMAGE</h1>
-                                    </div>
-                                    <div class="card-footer">
-                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti possimus totam minima cumque assumenda cum et labore quo est.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-6 col-lg-3 mb-3">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h1>IMAGE</h1>
-                                    </div>
-                                    <div class="card-footer">
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam mollitia cum ipsa ut voluptatum. Eius fuga voluptatem autem repellat ad?</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <!-- PROJECTS -->
+      <div class="row bg-success pt-5" id="projects">
+        <div class="col-12 pt-5 h100">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-3 mb-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h1>IMAGE</h1>
+                  </div>
+                  <div class="card-footer">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Ab fuga nostrum ipsum ad consequatur modi incidunt a quos
+                      corporis nulla.
+                    </p>
+                  </div>
                 </div>
-        </div>
-
-        <!-- SERVICES -->
-        <div class="row bg-info pt-5" id="services">
-            <div class="col-12 pt-5 h100">
-                <div class="container">
-                    <h1>SERVICES</h1>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3 mb-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h1>IMAGE</h1>
+                  </div>
+                  <div class="card-footer">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Fugiat, adipisci eius! Impedit deserunt repellat velit
+                      optio aliquam at sint voluptatum.
+                    </p>
+                  </div>
                 </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3 mb-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h1>IMAGE</h1>
+                  </div>
+                  <div class="card-footer">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Omnis corrupti possimus totam minima cumque assumenda cum
+                      et labore quo est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3 mb-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h1>IMAGE</h1>
+                  </div>
+                  <div class="card-footer">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Quam mollitia cum ipsa ut voluptatum. Eius fuga voluptatem
+                      autem repellat ad?
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <!-- PRICING -->
-        <div class="row bg-warning pt-5" id="pricing">
-            <div class="col-12 pt-5 h100">
-                <div class="container">
-                    <h1>PRICING</h1>
-                </div>
-            </div>
+      <!-- SERVICES -->
+      <div class="row bg-info pt-5" id="services">
+        <div class="col-12 pt-5 h100">
+          <div class="container">
+            <h1>SERVICES</h1>
+          </div>
         </div>
+      </div>
 
-        <!-- ABOUT -->
-        <div class="row bg-danger pt-5" id="about">
-            <div class="col-12 pt-5 h100">
-                <div class="container">
-                    <h1>ABOUT</h1>
-                </div>
-            </div>
+      <!-- PRICING -->
+      <div class="row bg-warning pt-5" id="pricing">
+        <div class="col-12 pt-5 h100">
+          <div class="container">
+            <h1>PRICING</h1>
+          </div>
         </div>
+      </div>
 
-        <!-- CONTACT -->
-        <div class="row bg-secondary pt-5" id="contact">
-            <div class="col-12 pt-5 h100">
-                <div class="container">
-                    <h1>CONTACT</h1>
-                </div>
-            </div>
+      <!-- ABOUT -->
+      <div class="row bg-danger pt-5" id="about">
+        <div class="col-12 pt-5 h100">
+          <div class="container">
+            <h1>ABOUT</h1>
+          </div>
         </div>
+      </div>
 
-        <!-- FOOTER -->
-        <div class="row bg-dark text-light">
-            <div class="col-12 h50">
-                <div class="container">
-                    <h1>Footer</h1>
-                </div>
-            </div>
+      <!-- CONTACT -->
+      <div class="row bg-secondary pt-5" id="contact">
+        <div class="col-12 pt-5 h100">
+          <div class="container">
+            <h1>CONTACT</h1>
+          </div>
         </div>
+      </div>
+
+      <!-- FOOTER -->
+      <div class="row bg-dark text-light">
+        <div class="col-12 h50">
+          <div class="container">
+            <h1>Footer</h1>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
