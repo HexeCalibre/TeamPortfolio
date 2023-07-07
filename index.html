@@ -8,23 +8,29 @@
     <meta name="Keyword" content="">
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Ritz Portfolio</title>
+    <title>Portfolio</title>
     
     <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css"> -->
     <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css">
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js" defer></script>
 </head>
 <body>
 
+    <nav class="navbar navbar-expand-sm bg-dark text-light">
+        <div class="container-fluid">
+            <br>
+            <div class="float-none"><kbd class="bg-info"><stong>Portfolio</stong></kbd></div>
+        </div>
+    </nav>
 
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top mb-5">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
         <div class="container-fluid">
 
             <a class="navbar-brand" href="#">
                 <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30"
-                    height="24" class="d-inline-block align-text-bottom"> Bootstrap
+                    height="24" class="d-inline-block align-text-bottom">&nbsp;NAME
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -78,41 +84,61 @@
         </div>
     </nav>
 
-    <div class="container-fluid pt-5 mt-1">
-        <div class="row">
-            <div class="col-sm-12 col-md-3 col-lg-3 bg-primary">
-                <h1>SIDE NAV</h1>
+
+    <div class="container-fluid">
+        <!-- OFF CANVAS -->
+        <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header text-light">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Profile</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="col-sm-12 col-md-9 col-lg-9">
-                <div class="row bg-info">
-                    <div class="col-12 pt-3 h100">
-                        <h1>1</h1>
-                    </div>
+            <div class="offcanvas-body">
+                <div>
+                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
                 </div>
+                <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- OFF CANVAS -->
 
-                <div class="row bg-danger">
-                    <div class="col-12 h100">
-                        <h1>2</h1>
-                    </div>
-                </div>
+        <div class="row bg-info">
+            <div class="col-12 pt-3 h100">
+                <button class="btn btn-primary text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <i class="bi bi-play-fill"></i>
+                </button>
+            </div>
+        </div>
 
-                <div class="row bg-secondary">
-                    <div class="col-12 h100">
-                        <h1>3</h1>
-                    </div>
-                </div>
+        <div class="row bg-danger">
+            <div class="col-12 h100">
+                <h1>2</h1>
+            </div>
+        </div>
 
-                <div class="row bg-warning">
-                    <div class="col-12 h100">
-                        <h1>4</h1>
-                    </div>
-                </div>
+        <div class="row bg-secondary">
+            <div class="col-12 h100">
+                <h1>3</h1>
+            </div>
+        </div>
 
-                <div class="row bg-success">
-                    <div class="col-12 h50">
-                        <h1>Footer</h1>
-                    </div>
-                </div>
+        <div class="row bg-warning">
+            <div class="col-12 h100">
+                <h1>4</h1>
+            </div>
+        </div>
+
+        <div class="row bg-success">
+            <div class="col-12 h50">
+                <h1>Footer</h1>
             </div>
         </div>
     </div>
