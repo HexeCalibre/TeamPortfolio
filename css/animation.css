@@ -1,3 +1,4 @@
+/* Hero Animation */
 .animation-container {
     font-family: fantasy;
     text-align: left;
@@ -24,4 +25,14 @@
     100% {
         Opacity: 1;
     }
+}
+
+/* Project Card Animation */
+
+.project-card{
+    transition: transform 0.2s ease-in;
+}
+
+.project-card:hover{
+    transform: translateY(-15px);
 }

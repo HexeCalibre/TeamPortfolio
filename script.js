@@ -1,4 +1,4 @@
-const phrases = ["Programmer", "Web Developer", "App Developer"]
+const phrases = ["Web Developer?", "Mobile Developer?", "Game Developer?" , "Ethical Hacker?"]
 const typingSpeed = 150;
 const deleteSpeed = 50;
 const initialDisplayDuration = 0;
