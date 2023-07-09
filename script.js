@@ -1,4 +1,4 @@
-const phrases = ["Web Developer?", "Mobile Developer?", "Game Developer?" , "Ethical Hacker?"]
+const phrases = ["Web Developer?", "Mobile App Developer?", "Game Developer?", "Ethical Hacker?"];
 const typingSpeed = 150;
 const deleteSpeed = 50;
 const initialDisplayDuration = 0;
@@ -9,7 +9,7 @@ const typingElement = document.getElementById("typing-text");
 let phraseIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
-let intervalID;
+let intervalId;
 
 function type() {
     const currentPhrase = phrases[phraseIndex];
@@ -22,9 +22,9 @@ function type() {
         typingElement.textContent = currentPhrase.substring(0, charIndex);
         charIndex--;
     } else {
-        if (isDeleting) {
+        if (!isDeleting) {
             isDeleting = true;
-            clearInterval(intervalID);
+            clearInterval(intervalId);
             intervalId = setInterval(type, deleteSpeed);
             return;
         }
@@ -32,12 +32,12 @@ function type() {
         clearInterval(intervalId);
         phraseIndex++;
         if (phraseIndex >= phrases.length) {
-            phraseIndex = 0;
+            phraseIndex = 0; // Restart the loop
         }
-        charIndex = 0;
+        charIndex = 0; // Reset the character index
         setTimeout(() => {
             isDeleting = false;
-            typingElement.textContent = "";
+            typingElement.textContent = ''; // Clear the text before starting to type the next word
             intervalId = setInterval(type, typingSpeed);
         }, pauseDuration);
         return;
@@ -48,6 +48,7 @@ function clearTypingInterval() {
     clearInterval(intervalId);
 }
 
+// Wait for the initial display duration before starting the typing process
 setTimeout(() => {
     intervalId = setInterval(type, typingSpeed);
 }, initialDisplayDuration);
