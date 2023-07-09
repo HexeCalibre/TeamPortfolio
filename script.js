@@ -2,7 +2,7 @@ const phrases = ["Web Developer?", "Mobile App Developer?", "Game Developer?", "
 const typingSpeed = 150;
 const deleteSpeed = 50;
 const initialDisplayDuration = 0;
-const displayDuration = 5000;
+const displayDuration = 3000;
 const pauseDuration = 500;
 
 const typingElement = document.getElementById("typing-text");
