@@ -2,6 +2,7 @@
 .animation-container {
     font-family: fantasy;
     text-align: left;
+    height: 100px;
 }
 
 .animation-content::after {
