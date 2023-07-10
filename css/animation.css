@@ -1,0 +1,38 @@
+/* Hero Animation */
+.animation-container {
+    font-family: fantasy;
+    text-align: left;
+}
+
+.animation-content::after {
+    content: "|";
+    animation: cursor-blink 0.7s infinite;
+}
+
+#typing-text {
+    color: whitesmoke
+}
+
+@keyframes cursor-blink {
+    0% {
+        Opacity: 1;
+    }
+
+    50% {
+        Opacity: 0;
+    }
+
+    100% {
+        Opacity: 1;
+    }
+}
+
+/* Project Card Animation */
+
+.project-card{
+    transition: transform 0.2s ease-in;
+}
+
+.project-card:hover{
+    transform: translateY(-15px);
+}

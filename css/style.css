@@ -3,16 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Card */
-.card{
-    transition: transform 0.2s ease-in;
-}
-
-.card:hover{
-    transform: translateY(-15px);
-}
-
+    
 .h100{
     height: 100vh;
 }

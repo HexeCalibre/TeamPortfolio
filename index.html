@@ -7,56 +7,43 @@
     <meta name="Description" content="" />
     <meta name="Keyword" content="" />
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <title>Portfolio</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <title>Portfolio</title>
 
-    <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css"> -->
-    <link rel="stylesheet" href="./css/main.min.css" />
-    <link
-      rel="stylesheet"
-      href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <script
-      src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"
-      defer
-    ></script>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-sm bg-dark text-light">
-      <div class="container-fluid">
-        <br />
-        <div class="float-none">
-          <kbd class="bg-info"><stong>Portfolio</stong></kbd>
-        </div>
+  <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css"> -->
+  <link rel="stylesheet" href="./css/main.min.css" />
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/animation.css">
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js" defer></script>
+</head>
+
+<body>
+  <!-- Navbar Label Start -->
+  <nav class="navbar navbar-expand-sm bg-dark text-light">
+    <div class="container-fluid">
+      <br />
+      <div class="float-none">
+        <kbd class="bg-info">
+          <stong>Portfolio</stong>
+        </kbd>
       </div>
-    </nav>
+    </div>
+  </nav>
+  <!-- Navbar Label End -->
 
-    <nav
-      class="navbar navbar-expand-md bg-dark navbar-dark sticky-top shadow-lg"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="#top">
-          <img
-            src="img/logo.png"
-            alt="Logo"
-            width="80"
-            height="30"
-            class="d-inline-block align-text-top"
-          />&nbsp;<span class="align-bottom">Dot.Exe</span>
-        </a>
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top shadow-lg" id="navbarNav">
+    <div class="container">
+      <a class="navbar-brand" href="#top">
+        <img src="img/logo.png" alt="Logo" width="80" height="30" class="d-inline-block align-text-top" />&nbsp;<span
+          class="align-bottom">Dot.Exe</span>
+      </a>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
         <div
           class="collapse navbar-collapse justify-content-end"
@@ -67,51 +54,44 @@
               <a class="nav-link" href="#projects">Projects</a>
             </li>
 
-            <li class="nav-item">
-              <a
-                class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-                href="#services"
-                >Services</a
-              >
-            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#pricing">Pricing</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                About
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#about">The Company</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#about">Our Story</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#about">The Team</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#about">Reviews</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#about">The Company</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#about">Our Story</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#about">The Team</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#about">Reviews</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
+  <!-- Navbar End -->
 
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+    data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
     <div class="container-fluid">
       <!-- OFF CANVAS -->
       <!-- <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -137,37 +117,39 @@
         </div> -->
       <!-- OFF CANVAS -->
       <!-- DESCRIPTION -->
-      <div class="row bg-primary shadow-lg" id="top">
+      <div class="row bg-light" id="top">
         <div class="container">
-          <div class="col-12 pt-5 h100">
+          <div class="col-12 pt-5 h50">
             <!-- <button class="btn btn-primary text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                         <i class="bi bi-play-fill"></i>
                     </button> -->
 
-            <div class="container rounded shadow-lg">
-              <div class="row pt-5">
-                <div class="col-sm-12 col-md-6 col-lg-6 mt-5">
-                  <h1 class="mx-auto mb-5 text-left text-light">
-                    <strong>Responsive left-aligned hero with image</strong>
+
+            <!-- Hero Start -->
+            <main class="container shadow-lg">
+              <div class="row bg-dark pt-5 rounded-5">
+                <div class="col-sm-12 col-md-6 col-lg-6 mt-1 mb-1">
+                  <h1 class="mx-auto text-left text-light">
+                    <strong>Unleash your digital dreams with our expert team with our</strong>
                   </h1>
+                  <div class="animation-container">
+                    <p class="animation-content font-monospace fs-3" id="typing-text"></p>
+                  </div>
+                  
                   <p class="mx-auto text-light">
-                    Quickly design and customize responsive mobile-first sites
-                    with Bootstrap, the world’s most popular front-end open
-                    source toolkit, featuring Sass variables and mixins,
-                    responsive grid system, extensive prebuilt components, and
-                    powerful JavaScript plugins.
+                    Welcome to endless possibilities
                   </p>
+                  
+                  <!-- Call To Action -->
+                    <a href="#" class="btn btn-primary btn-sm my-3">Get Started</a>
+                  
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 mt-5">
-                  <img
-                    src="./img/sample-hero.png"
-                    alt="hero image"
-                    class="mx-auto"
-                    width="100%"
-                  />
+                  <img src="./img/sample-hero.png" alt="hero image" class="mx-auto img-fluid" />
                 </div>
               </div>
-            </div>
+            </main>
+            
           </div>
         </div>
       </div>
@@ -175,26 +157,27 @@
       <!-- PROJECTS -->
       <div class="row bg-success pt-5" id="projects">
         <div class="col-12 pt-5 h100">
+          <h2 class="text-light text-center">Projects</h2>
           <div class="container">
-            <div class="row">
+            <div class="row g-3">
               <div class="col-sm-12 col-md-6 col-lg-3 mb-3">
-                <div class="card">
+                <div class="card project-card">
                   <div class="card-body">
-                    <h1>IMAGE</h1>
+                    <h3>Payroll</h3>
                   </div>
                   <div class="card-footer">
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Ab fuga nostrum ipsum ad consequatur modi incidunt a quos
-                      corporis nulla.
+                      Lorem ipsum dolor sit, amet consectetur adipisicing
+                      elit. Ab fuga nostrum ipsum ad consequatur modi incidunt
+                      a quos corporis nulla.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-3 mb-3">
-                <div class="card">
+                <div class="card project-card">
                   <div class="card-body">
-                    <h1>IMAGE</h1>
+                    <h3>Enrollment</h3>
                   </div>
                   <div class="card-footer">
                     <p>
@@ -206,29 +189,29 @@
                 </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-3 mb-3">
-                <div class="card">
+                <div class="card project-card">
                   <div class="card-body">
-                    <h1>IMAGE</h1>
+                    <h3>Inventory</h3>
                   </div>
                   <div class="card-footer">
                     <p>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Omnis corrupti possimus totam minima cumque assumenda cum
-                      et labore quo est.
+                      Lorem, ipsum dolor sit amet consectetur adipisicing
+                      elit. Omnis corrupti possimus totam minima cumque
+                      assumenda cum et labore quo est.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-3 mb-3">
-                <div class="card">
+                <div class="card project-card">
                   <div class="card-body">
-                    <h1>IMAGE</h1>
+                    <h3>Others</h3>
                   </div>
                   <div class="card-footer">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Quam mollitia cum ipsa ut voluptatum. Eius fuga voluptatem
-                      autem repellat ad?
+                      Lorem ipsum dolor sit amet consectetur, adipisicing
+                      elit. Quam mollitia cum ipsa ut voluptatum. Eius fuga
+                      voluptatem autem repellat ad?
                     </p>
                   </div>
                 </div>
@@ -238,11 +221,44 @@
         </div>
       </div>
 
+      <!-- Ritz Intro -->
+      <section class="container h-75" id="theDevs">
+        <h2>Team Leader &#128512;</h2>
+        <div class="card">
+          <div class="d-flex justify-content-around">
+            <img src="img/brent-rambo-thumbsup.gif" class="img-thumbnail rounded-circle" alt="" />
+            <div class="row">
+              <div class="card-header">
+                <h3 class="">Ritz Carl Feliciano</h3>
+              </div>
+              <div class="card-body">
+                <p class="">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Voluptas earum soluta consequatur minus, assumenda quos
+                  iusto doloremque, mollitia, blanditiis optio quibusdam!
+                  Nulla velit ab temporibus, saepe magni nihil et sapiente.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-primary">
+                    Visit Portfolio
+                  </button>
+                  <button type="button" class="btn btn-secondary">
+                    Download CV
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- SERVICES -->
       <div class="row bg-info pt-5" id="services">
         <div class="col-12 pt-5 h100">
           <div class="container">
-            <h1>SERVICES</h1>
+            <h2 class="text-center">SERVICES</h2>
           </div>
         </div>
       </div>
@@ -251,7 +267,7 @@
       <div class="row bg-warning pt-5" id="pricing">
         <div class="col-12 pt-5 h100">
           <div class="container">
-            <h1>PRICING</h1>
+            <h2 class="text-center">PRICING</h2>
           </div>
         </div>
       </div>
@@ -260,7 +276,7 @@
       <div class="row bg-danger pt-5" id="about">
         <div class="col-12 pt-5 h100">
           <div class="container">
-            <h1>ABOUT</h1>
+            <h2 class="text-center">ABOUT</h2>
           </div>
         </div>
       </div>
@@ -269,7 +285,7 @@
       <div class="row bg-secondary pt-5" id="contact">
         <div class="col-12 pt-5 h100">
           <div class="container">
-            <h1>CONTACT</h1>
+            <h2 class="text-center">CONTACT</h2>
           </div>
         </div>
       </div>
@@ -278,10 +294,14 @@
       <div class="row bg-dark text-light">
         <div class="col-12 h50">
           <div class="container">
-            <h1>Footer</h1>
+            <h2 class="text-center">Footer</h2>
           </div>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+
 </html>
