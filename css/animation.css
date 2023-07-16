@@ -2,6 +2,7 @@
 .animation-container {
     font-family: fantasy;
     text-align: left;
+    height: 100px;
 }
 
 .animation-content::after {
@@ -35,4 +36,50 @@
 
 .project-card:hover{
     transform: translateY(-15px);
+}
+
+/* Transitions */
+.hero {
+    animation: slideInFromBottom 1s ease-in;
+}
+
+/* Keyframes */
+@keyframes slideInFromLeft {
+    0%{
+        transform: translateX(-100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0%{
+        transform: translateX(100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromTop {
+    0%{
+        transform: translateY(-100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    0%{
+        transform: translateY(100%);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
 }

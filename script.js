@@ -52,3 +52,8 @@ function clearTypingInterval() {
 setTimeout(() => {
     intervalId = setInterval(type, typingSpeed);
 }, initialDisplayDuration);
+
+
+// Scroll Animation
+ScrollReveal({ duration: 1000 });
+ScrollReveal().reveal('.hero' ,   { interval: 16, reset: true });
